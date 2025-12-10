@@ -51,17 +51,18 @@
     "typings"
   ],
   "peerDependencies": {
-    "@xterm/xterm": "^5.3.0",
-    "@xterm/addon-search": "^0.13.0"
+    "@xterm/addon-search": "^0.13.0",
+    "@xterm/xterm": "^5.3.0"
   },
   "dependencies": {
-    "babel-runtime": "^6.26.0",
     "core-js": "^3.34.0",
     "postcss": "^8.5.6",
     "rxjs-compat": "^6.6.7"
   },
   "devDependencies": {
     "@babel/core": "^7.28.5",
+    "@babel/plugin-transform-runtime": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
     "@commitlint/cli": "^20.2.0",
     "@commitlint/config-conventional": "^20.2.0",
     "@rollup/plugin-alias": "^6.0.0",
@@ -69,12 +70,11 @@
     "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-node-resolve": "^16.0.3",
     "@rollup/plugin-replace": "^6.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
     "@types/node": "^24.10.2",
+    "@xterm/addon-search": "^0.15.0",
+    "@xterm/xterm": "^5.5.0",
     "ansi_up": "^6.0.6",
-    "babel-core": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-stage-2": "^6.24.1",
     "commitizen": "^4.3.1",
     "commitlint-config-cz": "^0.13.3",
     "cross-env": "^10.1.0",
@@ -90,11 +90,7 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-serve": "^3.0.0",
     "rollup-plugin-typescript2": "^0.36.0",
-    "rollup-plugin-uglify": "^6.0.4",
     "serve": "^14.2.5",
-    "typescript": "^5.9.3",
-    "uglify-js": "^3.17.4",
-    "@xterm/xterm": "^5.5.0",
-    "@xterm/addon-search": "^0.15.0"
+    "typescript": "^5.9.3"
   }
 }

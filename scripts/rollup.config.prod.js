@@ -1,5 +1,5 @@
 import filesize from 'rollup-plugin-filesize';
-import { uglify } from 'rollup-plugin-uglify';
+import terser from '@rollup/plugin-terser';
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -45,7 +45,7 @@ export default [
     ],
     plugins: [
       ...baseConfig.plugins,
-      uglify({
+      terser({
         compress: {
           drop_console: true,
         },

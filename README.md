@@ -18,8 +18,8 @@ npm install --save xterm-addon-search-bar-upgraded
 ## Usage
 
 ```ts
-import { Terminal } from 'xterm';
-import { SearchAddon } from 'xterm-addon-search';
+import { Terminal } from '@xterm/xterm';
+import { SearchAddon } from '@xterm/addon-search';
 import { SearchAddonBar } from 'xterm-addon-search-bar-upgraded';
 
 const terminal = new Terminal();

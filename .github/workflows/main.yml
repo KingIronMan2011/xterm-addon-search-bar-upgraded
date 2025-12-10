@@ -11,9 +11,18 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
     - name: checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
 
     - name: yarn install, build
       run: |
@@ -29,8 +38,8 @@ jobs:
         cp -a lib pages
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2.5.0
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.deploy_key }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        deploy_key: ${{ secrets.deploy_key }}
+        publish_branch: gh-pages
+        publish_dir: pages

@@ -2,8 +2,8 @@
 
 **This is a fork of [xterm-addon-search-bar](https://github.com/yinshuxun/xterm-addon-search-bar) with some package updates and improvements**
 
-[![Build Status](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/actions)
-[![Build Status](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/workflows/publish/badge.svg?branch=master&event=push)](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/actions)
+[![Build Status](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/workflows/ci/badge.svg?branch=main&event=push)](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/actions)
+[![Build Status](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/workflows/publish/badge.svg?branch=main&event=push)](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/actions)
 [![NPM](https://img.shields.io/npm/v/xterm-addon-search-bar-upgraded.svg)](https://www.npmjs.com/package/xterm-addon-search-bar-upgraded)
 ![License](https://img.shields.io/npm/l/xterm-addon-search-bar-upgraded.svg)
 

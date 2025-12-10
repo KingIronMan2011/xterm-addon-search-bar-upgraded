@@ -33,12 +33,12 @@ export default {
   output: [
     {
       format: 'cjs',
-      file: 'xterm-addon-search-bar',
+      file: 'xterm-addon-search-bar-upgraded',
       sourcemap: true,
     },
     {
       format: 'es',
-      file: 'xterm-addon-search-bar',
+      file: 'xterm-addon-search-bar-upgraded',
       sourcemap: true,
     },
   ],

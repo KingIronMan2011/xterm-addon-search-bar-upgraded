@@ -35,7 +35,23 @@ jobs:
       - name: Update npm
         run: npm install -g npm@latest
 
+      - name: Check if version already published
+        id: version-check
+        run: |
+          PKG_NAME=$(node -p "require('./package.json').name")
+          PKG_VERSION=$(node -p "require('./package.json').version")
+          if npm view "$PKG_NAME@$PKG_VERSION" version > /dev/null 2>&1; then
+            echo "published=true" >> $GITHUB_OUTPUT
+          else
+            echo "published=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Publish to npm
+        if: steps.version-check.outputs.published == 'false'
         run: npm publish
         env:
           NPM_CONFIG_PROVENANCE: true
+
+      - name: Skip publish (already published)
+        if: steps.version-check.outputs.published == 'true'
+        run: echo "Version already published, skipping."

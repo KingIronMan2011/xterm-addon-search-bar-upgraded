@@ -31,9 +31,6 @@ jobs:
       - name: Build package
         run: yarn build
 
-      - name: Update Version
-        run: yarn release
-
       - name: Publish to npm
         run: npm publish --access public
         env:

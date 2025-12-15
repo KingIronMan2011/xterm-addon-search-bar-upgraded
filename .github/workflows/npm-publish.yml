@@ -48,7 +48,7 @@ jobs:
 
       - name: Publish to npm
         if: steps.version-check.outputs.published == 'false'
-        run: npm publish --access public
+        run: npm publish
         env:
           NPM_CONFIG_PROVENANCE: true
 

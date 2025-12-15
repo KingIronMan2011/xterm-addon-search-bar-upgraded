@@ -1,11 +1,11 @@
-# xterm-addon-search-bar-upgraded
+# @kingironman2011/xterm-addon-search-bar
 
 **This is a fork of [xterm-addon-search-bar](https://github.com/yinshuxun/xterm-addon-search-bar) with some package updates and improvements**
 
-[![Build Status](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/workflows/ci/badge.svg?branch=main&event=push)](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/actions)
-[![Build Status](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/workflows/publish/badge.svg?branch=main&event=push)](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/actions)
-[![NPM](https://img.shields.io/npm/v/xterm-addon-search-bar-upgraded.svg)](https://www.npmjs.com/package/xterm-addon-search-bar-upgraded)
-![License](https://img.shields.io/npm/l/xterm-addon-search-bar-upgraded.svg)
+[![Build Status](https://github.com/KingIronMan2011/xterm-addon-search-bar/workflows/ci/badge.svg?branch=main&event=push)](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/actions)
+[![Build Status](https://github.com/KingIronMan2011/xterm-addon-search-bar/workflows/publish/badge.svg?branch=main&event=push)](https://github.com/KingIronMan2011/xterm-addon-search-bar-upgraded/actions)
+[![NPM](https://img.shields.io/npm/v/xterm-addon-search-bar.svg)](https://www.npmjs.com/package/@kingironman2011/xterm-addon-search-bar)
+![License](https://img.shields.io/npm/l/xterm-addon-search-bar.svg)
 
 An addon for [xterm.js](https://github.com/xtermjs/xterm.js) that enables show search bar in terminal. This addon requires xterm.js & xterm-addon-search v4+.
 

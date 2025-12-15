@@ -1,5 +1,5 @@
 {
-  "name": "xterm-addon-search-bar-upgraded",
+  "name": "@kingironman2011/xterm-addon-search-bar",
   "version": "0.3.5",
   "global": "SearchBarAddon",
   "main": "lib/xterm-addon-search-bar-upgraded.js",
